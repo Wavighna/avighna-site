@@ -5,53 +5,46 @@
   "domain": "avighnawuthoo.com",
   "url": "https://avighnawuthoo.com",
 
-  "tagline": "TODO — one line, e.g. 'cs student, building things with AI'",
+  "tagline": "",
   "greeting": "hi, i'm avighna.",
 
   "bio": [
-    "TODO — replace this. One or two short sentences about who you are and what you're doing right now. Keep it plain and specific; this is the paragraph AI models will quote when someone asks about you."
+    "currently studying AE + physics @ UVA. i'm interested in propulsion and CS.",
+    "i also love making engines and designing rockets and drones."
   ],
 
   "sections": [
     {
-      "id": "work",
-      "title": "work",
+      "id": "previously",
+      "title": "previously, i've:",
       "items": [
-        "TODO — what you're building right now, with a [link](https://example.com)",
-        "TODO — a past role, project, or research position",
-        "TODO — something you built that you're proud of",
-        "TODO — a competition, publication, or award"
-      ]
-    },
-    {
-      "id": "writing",
-      "title": "writing",
-      "items": [
-        "TODO — or delete this whole section from content.json if you don't write"
+        "worked on data architecture and AI systems at [Cloud9 Advisers](https://www.cloud9advisers.com/)",
+        "built a retrofit, self-cleaning solar-panel cover ([ISEF](https://isef.net/project/egsd027t-push-pull-microtextures-for-passive-solar-cleaning))",
+        "designed and tested a 350 g turbofan prototype that produced 18.6 N of static thrust"
       ]
     }
   ],
 
   "links": [
-    { "label": "email",    "url": "mailto:TODO@example.com" },
-    { "label": "github",   "url": "https://github.com/TODO" },
-    { "label": "linkedin", "url": "https://linkedin.com/in/TODO" },
+    { "label": "email",    "url": "mailto:mfb5sy@virginia.edu" },
+    { "label": "github",   "url": "https://github.com/Wavighna" },
+    { "label": "linkedin", "url": "https://www.linkedin.com/in/avighna-wuthoo-ai/" },
     { "label": "resume",   "url": "/resume.pdf" }
   ],
 
   "profile": {
     "_comment": "Structured facts for schema.org / JSON-LD. Search engines and AI crawlers read this directly. Leave a field as an empty string or [] to omit it.",
-    "jobTitle": "",
-    "worksFor": "",
-    "affiliation": "",
+    "jobTitle": "Aerospace Engineering Student and Founder",
+    "worksFor": "Solar Labs",
+    "affiliation": "University of Virginia",
     "alumniOf": [],
-    "location": "",
+    "location": "Charlottesville, VA",
     "pronouns": "",
-    "knowsAbout": ["TODO", "replace with topics you actually work on"]
+    "knowsAbout": ["aerospace engineering", "propulsion", "computer science", "artificial intelligence", "solar energy", "CAD", "rockets", "drones"]
   },
 
   "meta": {
-    "description": "TODO — 140–160 chars. Shows up in Google results and in AI search citations.",
+    "description": "Avighna Wuthoo studies aerospace engineering and physics at UVA, building propulsion systems, AI software, and sustainable-energy technology.",
     "themeColor": "#0c0c0d",
     "lastUpdated": "auto"
   }

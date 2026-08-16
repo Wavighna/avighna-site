@@ -126,7 +126,7 @@ const jsonld = {
 /* ---------- index.html ---------------------------------------------- */
 
 const linkRow = links
-  .map((l) => `<a href="${esc(absolute(l.url))}" rel="me">${esc(l.label)}</a>`)
+  .map((l) => `<a href="${esc(l.url.startsWith("/") ? l.url : absolute(l.url))}" rel="me">${esc(l.label)}</a>`)
   .join('<span class="sep" aria-hidden="true">·</span>');
 
 const bodySections = sections
@@ -184,14 +184,11 @@ ${css.trim()}
 <div class="wrap">
 
   <header>
-    <h1>${esc(c.name.toLowerCase())}</h1>
-${c.tagline && !c.tagline.startsWith("TODO") ? `    <p class="tagline">${inlineHtml(c.tagline)}</p>` : ""}
+${c.greeting ? `    <h1>${inlineHtml(c.greeting)}</h1>` : ""}
   </header>
 
-  <hr>
-
   <main id="main">
-${(c.greeting ? `    <p>${inlineHtml(c.greeting)}</p>\n` : "")}${(c.bio || [])
+${(c.bio || [])
   .map((p) => `    <p>${inlineHtml(p)}</p>`)
   .join("\n")}
 ${bodySections}
@@ -201,10 +198,6 @@ ${bodySections}
     <nav class="linkrow" aria-label="Contact and profiles">
       ${linkRow}
     </nav>
-    <p class="colophon">
-      last updated ${BUILD_DATE}. no javascript, no tracking, no cookies.<br>
-      machine-readable: <a href="/index.md">markdown</a><span class="sep" aria-hidden="true">·</span><a href="/llms.txt">llms.txt</a><span class="sep" aria-hidden="true">·</span><a href="/profile.json">json</a>
-    </p>
   </footer>
 
 </div>
