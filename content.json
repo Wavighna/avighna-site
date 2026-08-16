@@ -9,7 +9,7 @@
   "greeting": "hi, i'm avighna.",
 
   "bio": [
-    "currently studying AE + physics @ UVA. i'm interested in propulsion and CS.",
+    "currently studying aerospace + CS @ UVA. i'm interested in propulsion.",
     "i also love making engines and designing rockets and drones."
   ],
 
@@ -44,7 +44,7 @@
   },
 
   "meta": {
-    "description": "Avighna Wuthoo studies aerospace engineering and physics at UVA, building propulsion systems, AI software, and sustainable-energy technology.",
+    "description": "Avighna Wuthoo studies aerospace engineering and computer science at UVA, building propulsion systems, AI software, and sustainable-energy technology.",
     "themeColor": "#0c0c0d",
     "lastUpdated": "auto"
   }
