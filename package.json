@@ -1,0 +1,15 @@
+{
+  "name": "avighna-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal website for Avighna Wuthoo. Static, zero dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node build.mjs && node check.mjs",
+    "serve": "node build.mjs && echo '\\n  http://localhost:8000\\n' && python3 -m http.server 8000 --directory dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
