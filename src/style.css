@@ -43,7 +43,7 @@ body {
 }
 
 .wrap {
-  max-width: 72ch;
+  max-width: 100ch;
   margin: 0 auto;
   padding: 3.5rem 1.5rem 5rem;
 }
@@ -87,7 +87,7 @@ hr {
 }
 
 /* --- prose -------------------------------------------------------- */
-p { margin: 0 0 1.1rem; }
+p { margin: 0 0 1.1rem; text-wrap: pretty; }
 
 h2 {
   font-size: 1rem;
@@ -112,6 +112,7 @@ li {
   position: relative;
   padding-left: 1.6ch;
   margin-bottom: .55rem;
+  text-wrap: pretty;
 }
 
 li::before {
