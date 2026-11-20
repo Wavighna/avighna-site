@@ -1,13 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs>
-    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
-      <path d="M16 0H0V16" fill="none" stroke="#253354" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="128" height="128" rx="8" fill="#101b38"/>
-  <rect width="128" height="128" rx="8" fill="url(#grid)"/>
-  <g fill="#dec58f" transform="translate(14 88) scale(.034 -0.034)">
-    <path d="M1201 21Q1157 2 1097 -14Q1037 -30 970 -30Q847 -30 789 6.5Q731 43 710 111H704Q670 77 638.5 53Q607 29 571 12Q524 -10 480.5 -20.5Q437 -31 359 -31Q243 -31 161 37.5Q79 106 79 219Q79 284 97 329.5Q115 375 148 410Q178 442 217.5 463Q257 484 304 502Q394 535 520 570.5Q646 606 704 634V730Q704 755 700 796Q696 837 683 865Q669 897 639 919Q609 941 560 941Q516 941 486.5 928.5Q457 916 439 903Q442 883 456 842Q470 801 470 763Q470 746 461 720.5Q452 695 435 680Q412 660 383.5 649Q355 638 296 638Q212 638 169 678.5Q126 719 126 784Q126 840 170.5 884.5Q215 929 279 958Q342 988 424 1004.5Q506 1021 576 1021Q673 1021 754 1009.5Q835 998 900 962Q962 927 998.5 860.5Q1035 794 1035 687Q1035 574 1030.5 419Q1026 264 1026 215Q1026 170 1039.5 144Q1053 118 1081 105Q1098 97 1134.5 95.5Q1171 94 1201 94ZM704 542Q648 523 593 498.5Q538 474 503 447Q466 419 445 375.5Q424 332 424 273Q424 195 459.5 160Q495 125 547 125Q602 125 637.5 147.5Q673 170 700 203Z"/>
-    <path transform="translate(1200 0)" d="M1782 919Q1736 912 1697 888.5Q1658 865 1631 801Q1561 630 1519 525Q1477 420 1401 222Q1385 181 1362.5 109Q1340 37 1327 -9H1132L880 671L644 -9H451Q350 264 292 414.5Q234 565 137 812Q119 859 75.5 886Q32 913 -14 919V992H600V919Q566 916 519 903Q472 890 472 868Q472 858 474.5 850.5Q477 843 483 823Q510 745 557 621.5Q604 498 667 334L889 992H1087L1340 312Q1398 466 1429.5 554.5Q1461 643 1509 783Q1516 804 1517.5 820.5Q1519 837 1518 842Q1518 860 1500 874.5Q1482 889 1457 898Q1432 907 1408.5 912Q1385 917 1369 919V992H1782Z"/>
+  <rect width="128" height="128" rx="27" fill="#f5f3ee"/>
+  <g fill="#171717">
+    <path id="ray" d="M59 60 61 15Q64 12 67 15L69 60Z"/>
+    <use href="#ray" transform="rotate(22.5 64 64)"/>
+    <use href="#ray" transform="rotate(45 64 64)"/>
+    <use href="#ray" transform="rotate(67.5 64 64)"/>
+    <use href="#ray" transform="rotate(90 64 64)"/>
+    <use href="#ray" transform="rotate(112.5 64 64)"/>
+    <use href="#ray" transform="rotate(135 64 64)"/>
+    <use href="#ray" transform="rotate(157.5 64 64)"/>
+    <use href="#ray" transform="rotate(180 64 64)"/>
+    <use href="#ray" transform="rotate(202.5 64 64)"/>
+    <use href="#ray" transform="rotate(225 64 64)"/>
+    <use href="#ray" transform="rotate(247.5 64 64)"/>
+    <use href="#ray" transform="rotate(270 64 64)"/>
+    <use href="#ray" transform="rotate(292.5 64 64)"/>
+    <use href="#ray" transform="rotate(315 64 64)"/>
+    <use href="#ray" transform="rotate(337.5 64 64)"/>
+    <circle cx="64" cy="64" r="12"/>
   </g>
 </svg>
