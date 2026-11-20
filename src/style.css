@@ -192,3 +192,6 @@ footer {
   }
   .wrap { max-width: none; padding: 0; }
 }
+
+/* "made cars" link: blue underline */
+a[href*="virginiamotorsportseducation"] { text-decoration: underline; }

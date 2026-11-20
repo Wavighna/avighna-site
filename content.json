@@ -9,8 +9,8 @@
   "greeting": "hi, i'm avighna.",
 
   "bio": [
-    "currently studying aerospace + CS @ UVA. i'm interested in propulsion.",
-    "i also love making engines and designing rockets and drones."
+    "Revolutionizing clinics and healthcare with Kestrel, ($XXXK raised).",
+    "i'm passionate about aerospace propulsion, and i love building electronics and robotics."
   ],
 
   "sections": [
@@ -18,9 +18,11 @@
       "id": "previously",
       "title": "previously, i've:",
       "items": [
-        "worked on data architecture and AI systems at [Cloud9 Advisers](https://www.cloud9advisers.com/)",
-        "built a retrofit, self-cleaning solar-panel cover ([ISEF](https://isef.net/project/egsd027t-push-pull-microtextures-for-passive-solar-cleaning))",
-        "designed and tested a 350 g turbofan prototype that produced 18.6 N of static thrust"
+        "studied electrical engineering and made [cars](https://www.virginiamotorsportseducation.org/) at the University of Virginia",
+        "been recognized by Telora Fellows and at [ISEF](https://isef.net/project/egsd027t-push-pull-microtextures-for-passive-solar-cleaning)",
+        "built a jet engine at 15",
+        "sold solar panel covers to solar farms",
+        "worked on data architecture and AI systems at [Cloud9 Advisers](https://www.cloud9advisers.com/)"
       ]
     }
   ],
@@ -28,8 +30,7 @@
   "links": [
     { "label": "email",    "url": "mailto:mfb5sy@virginia.edu" },
     { "label": "github",   "url": "https://github.com/Wavighna" },
-    { "label": "linkedin", "url": "https://www.linkedin.com/in/avighna-wuthoo-ai/" },
-    { "label": "resume",   "url": "/resume.pdf" }
+    { "label": "linkedin", "url": "https://www.linkedin.com/in/avighna-wuthoo-ai/" }
   ],
 
   "profile": {
