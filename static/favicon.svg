@@ -1,4 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#1f4fd8"/>
-  <path d="M7 44 16 20h5l9 24h-6l-2-6h-8l-2 6zm9-11h5l-2.5-8zM31 20h6l3 15 4-11h4l4 11 3-15h6l-6 24h-5l-4-11-4 11h-5z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#183a9c"/>
+      <stop offset="1" stop-color="#091632"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a9c9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="url(#bg)"/>
+  <rect x="5" y="5" width="118" height="118" rx="22" fill="none" stroke="#8bbaff" stroke-opacity=".38" stroke-width="1.5"/>
+  <path d="M15 84c20-24 54-43 98-46M19 92c18-19 49-35 86-39" fill="none" stroke="#7eb8ff" stroke-opacity=".34" stroke-width="1.4"/>
+  <circle cx="103" cy="40" r="3" fill="#8de7ff"/>
+  <g fill="url(#metal)" transform="translate(9 85) scale(.030 -0.030)">
+    <path d="M1250 -30Q1171 -27 1091 156Q1038 274 1000 428Q926 417 758 406Q600 395 516 380Q470 270 356 49Q312 -23 234 -23Q179 -23 135 14Q91 52 91 110Q91 161 237 456Q223 487 225 514Q229 562 322 589Q464 835 638 1099Q888 1478 946 1478Q1056 1478 1093 1345Q1113 1238 1156 1024Q1217 736 1305 365Q1312 337 1356 233Q1392 147 1392 104Q1392 46 1348 7Q1305 -32 1250 -30ZM877 996Q799 862 662 631Q707 641 802 647Q914 654 943 658Q919 788 877 996Z"/>
+    <path transform="translate(1500 0)" d="M2052 1283Q2035 1242 2012 1182Q1995 1124 1957 1010Q1900 863 1776 582Q1649 296 1594 155Q1553 50 1517 -13Q1470 -96 1374 -96Q1317 -96 1271 -65Q1217 -29 1213 30Q1167 145 1155 218Q1111 432 1033 861Q968 660 893 500Q781 260 746 123Q755 101 755 76Q755 14 700 -25Q652 -58 594 -58Q521 -58 473 -21Q421 20 419 91L388 208Q355 364 280 674Q214 911 59 1349Q50 1374 50 1399Q50 1459 96 1494Q137 1526 195 1526Q271 1526 316 1462Q341 1427 373 1335Q471 1053 594 513Q674 708 757 973Q824 1189 866 1280Q966 1498 1070 1498Q1168 1498 1213 1391Q1235 1340 1256 1206Q1262 1165 1282 1005Q1303 833 1408 379Q1514 627 1693 1094Q1704 1122 1745 1278Q1774 1390 1818 1455Q1866 1525 1946 1525Q2007 1525 2047 1487Q2087 1450 2087 1391Q2087 1370 2052 1283Z"/>
+  </g>
+  <path d="M27 99h36M69 99h9M83 99h18" stroke="#83c9ff" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
 </svg>
