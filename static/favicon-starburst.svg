@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="27" fill="#f5f3ee"/>
+  <g fill="#171717">
+    <path id="ray" d="M59 60 61 15Q64 12 67 15L69 60Z"/>
+    <use href="#ray" transform="rotate(22.5 64 64)"/>
+    <use href="#ray" transform="rotate(45 64 64)"/>
+    <use href="#ray" transform="rotate(67.5 64 64)"/>
+    <use href="#ray" transform="rotate(90 64 64)"/>
+    <use href="#ray" transform="rotate(112.5 64 64)"/>
+    <use href="#ray" transform="rotate(135 64 64)"/>
+    <use href="#ray" transform="rotate(157.5 64 64)"/>
+    <use href="#ray" transform="rotate(180 64 64)"/>
+    <use href="#ray" transform="rotate(202.5 64 64)"/>
+    <use href="#ray" transform="rotate(225 64 64)"/>
+    <use href="#ray" transform="rotate(247.5 64 64)"/>
+    <use href="#ray" transform="rotate(270 64 64)"/>
+    <use href="#ray" transform="rotate(292.5 64 64)"/>
+    <use href="#ray" transform="rotate(315 64 64)"/>
+    <use href="#ray" transform="rotate(337.5 64 64)"/>
+    <circle cx="64" cy="64" r="12"/>
+  </g>
+</svg>
